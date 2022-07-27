@@ -9,7 +9,7 @@ const listGroupElement = document.querySelector('.listGroup');
 listGroupElement.innerHTML = 'FOR';
 
 // Soluzione con FOR 
-for(let i = 0; i < listArray.length - 1; i++){
+for(let i = 0; i < listArray.length; i++){
     const currentItem = listArray[i];
 
     const listItem = `
@@ -22,7 +22,7 @@ for(let i = 0; i < listArray.length - 1; i++){
 listGroupElement.innerHTML += `<br>WHILE`;
 
 let i = 0;
-while(i < listArray.length - 1){
+while(i < listArray.length){
     const currentItem = listArray[i];
 
     const listItem = `
