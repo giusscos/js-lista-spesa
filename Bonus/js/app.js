@@ -29,7 +29,7 @@ for(let i = 0; i < listArray.length; i++){
 // listGroupElement.innerHTML += `<br>WHILE`;
 
 // let i = 0;
-// while(i < listArray.length - 1){
+// while(i < listArray.length){
 //     const currentItem = listArray[i];
 
 //     const listItem = `
